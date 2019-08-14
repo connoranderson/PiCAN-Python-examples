@@ -61,4 +61,4 @@ except KeyboardInterrupt:
 	#Catch keyboard interrupt
 	GPIO.output(led,False)
 	os.system("sudo /sbin/ip link set can0 down")
-	print('\n\rKeyboard interrtupt')	
+	print('\n\rKeyboard interrupt')	
